@@ -71,7 +71,8 @@ nav li::marker {
     color: blueviolet;
 }
 a:hover {
-    color:blue;
+    color: blue;
+    background-color: yellow;
 }
 nav a:active {
     color: yellow;
