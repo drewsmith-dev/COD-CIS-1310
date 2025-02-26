@@ -70,6 +70,9 @@ nav ul ul {
 nav li::marker {
     color: blueviolet;
 }
+nav a:link {
+    color:hotpink;
+}
 nav a:visited {
     color: green;
 }
@@ -91,14 +94,15 @@ header {
 /*--------------------------------------------------------------
 # Content Area
 --------------------------------------------------------------*/
-.primary {
+main {
     width: 70%;
+    height: 100%;
     float: left;
     padding: 1rem;
-    border-right: 1px;
+    border-right: 1px solid black;
 }
 aside {
-    width: 25%;
+    width: 30%;
     float: right;
 }
 
@@ -108,6 +112,7 @@ aside {
 footer {
     background-color: #BBE2F2;
     text-align: center;
+    padding: 20px 0px;
     clear: both;
 }
 
