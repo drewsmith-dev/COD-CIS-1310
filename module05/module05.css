@@ -70,11 +70,7 @@ nav ul ul {
 nav li::marker {
     color: blueviolet;
 }
-nav ul li a {
-    color:blueviolet;
-    background-color: yellow;
-}
-.menu-item{
+nav a {
     color:blueviolet;
     background-color: yellow;
 }
