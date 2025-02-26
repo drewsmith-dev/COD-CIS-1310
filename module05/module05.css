@@ -70,16 +70,20 @@ nav ul ul {
 nav li::marker {
     color: blueviolet;
 }
-a:hover {
+nav a {
+    color:blueviolet;
+}
+nav a:visited {
+    color: green;
+}
+nav a:hover {
     color: blue;
     background-color: yellow;
 }
 nav a:active {
     color: yellow;
 } 
-nav a:visited {
-    color: green;
-}
+
 /*--------------------------------------------------------------
 # Header Area
 --------------------------------------------------------------*/
