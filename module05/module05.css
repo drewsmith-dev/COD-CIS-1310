@@ -70,10 +70,6 @@ nav ul ul {
 nav li::marker {
     color: blueviolet;
 }
-nav a {
-    color:blueviolet;
-    background-color: yellow;
-}
 nav a:visited {
     color: green;
 }
