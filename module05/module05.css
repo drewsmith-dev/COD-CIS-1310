@@ -75,7 +75,6 @@ nav a:visited {
 }
 nav a:hover {
     color: blue;
-    background-color: yellow;
 }
 nav a:active {
     color: yellow;
