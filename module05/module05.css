@@ -70,8 +70,9 @@ nav ul ul {
 nav li::marker {
     color: blueviolet;
 }
-nav a {
+nav ul li a {
     color:blueviolet;
+    background-color: yellow;
 }
 nav a:visited {
     color: green;
