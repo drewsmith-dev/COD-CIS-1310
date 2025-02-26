@@ -74,6 +74,10 @@ nav ul li a {
     color:blueviolet;
     background-color: yellow;
 }
+.menu-item{
+    color:blueviolet;
+    background-color: yellow;
+}
 nav a:visited {
     color: green;
 }
