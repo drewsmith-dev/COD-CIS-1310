@@ -97,7 +97,7 @@ header {
     border-right: 1px;
 }
 aside {
-    width: 30%;
+    width: 25%;
     float: right;
 }
 
@@ -107,7 +107,7 @@ aside {
 footer {
     background-color: #BBE2F2;
     text-align: center;
-    clear: left;
+    clear: both;
 }
 
 /*--------------------------------------------------------------
