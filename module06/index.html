@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Module 06 Lab</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form action="#" method="post">
+
+            <legend>Items labeled in <span class="red">Red</span> are <span class="red">Required</span></legend>
+
+            <!-- Personal information -->
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="full_name" class="personal"><span class="red">Full Name: </span></label>
+                <input type="text" name="full_name" size="50" required>
+                <label for="email" class="personal"><span class="red">Email: </span></label>
+                <input type="email" name="email" size="50" required>
+                <label for="password" class="personal"><span class="red">Password: </span></label>
+                <input type="password" name="password" size="50" required>
+                <label for="dob" class="personal">Date of Birth: </label>
+                <input type="date" name="dob">
+            </fieldset>
+
+            <!-- Radio buttons -->
+            <fieldset>
+                <legend>Choose a Preferred Hobby</legend> 
+                <input type="radio" name="hobby" value="Painting" id="Painting">
+                <label for="Painting" class="hobby">Painting</label>
+                <input type="radio" name="hobby" value="Hiking" id="Hiking">
+                <label for="Hiking" class="hobby">Hiking</label>
+                <input type="radio" name="hobby" value="Astronomy" id="Astronomy">
+                <label for="Astronomy" class="hobby">Astronomy</label>
+            </fieldset>
+
+            <!-- Programming language selection -->
+            <fieldset>
+                <legend>Choose a programming language</legend>
+                <select name="language">
+                    <option value="Python">Python</option>
+                    <option value="C#">C#</option>
+                    <option value="Java">Java</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Submission</legend>
+
+                <!-- Comments textbox -->
+                <textarea name="comments" cols="60" rows="5">Provide comments here...</textarea>
+                
+                <!-- Agree to terms and conditions -->
+                <label for="agree">I agree to the terms and conditions</label>
+                <input type="checkbox" name="agree">
+
+                <!-- Submit button -->
+                <button type="submit">Submit</button>
+
+            </fieldset>
+        </form>
+        
+    </body>
+</html>
