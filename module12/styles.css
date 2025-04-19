@@ -1,0 +1,30 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table {
+    width: 75%;
+    margin: auto;
+    border: 3px solid #023535;
+    border-collapse: collapse;
+}
+
+thead tr {
+    background-color: #023535;
+    color: white;
+    font-size: 1.2em;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+th, td {
+    border: 1px solid #023535;
+    padding: 10px;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #C7FFED;
+}
